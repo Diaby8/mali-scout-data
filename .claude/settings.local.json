@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "WebFetch(domain:www.transfermarkt.us)",
+      "WebFetch(domain:fbref.com)",
+      "WebFetch(domain:www.besoccer.com)",
+      "WebFetch(domain:www.espn.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.national-football-teams.com)",
+      "WebFetch(domain:us.soccerway.com)",
+      "WebFetch(domain:www.flashscore.fr)",
+      "WebFetch(domain:www.footmercato.net)",
+      "WebSearch",
+      "WebFetch(domain:www.footballtransfers.com)",
+      "WebFetch(domain:www.footballdatabase.eu)",
+      "WebFetch(domain:moroccobeat.com)",
+      "WebFetch(domain:formation-y.com)",
+      "WebFetch(domain:www.flashscore.com)",
+      "WebFetch(domain:www.transfermarkt.com)",
+      "WebFetch(domain:www.fifa.com)"
+    ]
+  }
+}
