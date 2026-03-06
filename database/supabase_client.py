@@ -1,0 +1,15 @@
+"""Connexion Supabase pour Mali Scout Data."""
+
+import os
+from dotenv import load_dotenv
+from supabase import create_client, Client
+
+load_dotenv()
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY") or os.getenv("SUPABASE_ANON_KEY")
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    raise ValueError("SUPABASE_URL et SUPABASE_SERVICE_KEY (ou SUPABASE_ANON_KEY) doivent etre dans .env")
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
